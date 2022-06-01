@@ -1,0 +1,1121 @@
+[
+    {
+        "capabilities": [
+            {
+                "name": "electricity_contract",
+                "available": true
+            }
+        ],
+        "id": "60478d1baf36ee032f3e0070",
+        "name": "NetatmoAPI Lab",
+        "altitude": 130,
+        "coordinates": [
+            17.185015082359318,
+            48.19133577528063
+        ],
+        "country": "AT",
+        "timezone": "Europe/Vienna",
+        "city": "Wien",
+        "currency_code": "EUR",
+        "contract_power_unit": "kVA",
+        "invitation_code": [
+            "MWHwMsj8kS1tD1AH",
+            "O8rh8RgMrq1TsyJAcD",
+            "uyRcEaE3D00qDGXf86"
+        ],
+        "nb_users": 6,
+        "place_improved": false,
+        "trust_location": true,
+        "therm_absence_notification": true,
+        "therm_absence_autoaway": false,
+        "rooms": [
+            {
+                "id": "1914591590",
+                "name": "Electrical Cabinet",
+                "type": "electrical_cabinet",
+                "module_ids": [
+                    "00:04:74:26:1b:1e",
+                    "00:04:74:00:00:a1:4c:95",
+                    "00:04:74:00:00:83:9c:65"
+                ],
+                "modules": [
+                    "00:04:74:26:1b:1e",
+                    "00:04:74:00:00:a1:4c:95",
+                    "00:04:74:00:00:83:9c:65"
+                ]
+            },
+            {
+                "id": "2389428768",
+                "name": "Living Room with Kitchen",
+                "type": "home_office",
+                "module_ids": [
+                    "00:03:50:b7:71:be",
+                    "00:04:74:00:00:83:89:ec",
+                    "00:04:74:00:00:af:88:4b",
+                    "00:04:74:00:00:0f:35:67",
+                    "00:04:74:00:00:0d:47:70",
+                    "00:04:74:00:00:0d:47:63",
+                    "00:04:74:00:00:8a:b4:3b",
+                    "00:04:74:00:00:ac:bf:e2",
+                    "00:04:74:00:00:af:88:41",
+                    "00:04:74:00:00:7a:ab:c3",
+                    "00:04:74:00:00:ae:f4:61",
+                    "00:04:74:00:00:92:f6:9b",
+                    "00:04:74:00:00:a2:cf:ba",
+                    "00:04:74:00:00:a2:c6:dc",
+                    "00:04:74:00:00:7e:db:b3"
+                ],
+                "modules": [
+                    "00:03:50:b7:71:be",
+                    "00:04:74:00:00:83:89:ec",
+                    "00:04:74:00:00:af:88:4b",
+                    "00:04:74:00:00:0f:35:67",
+                    "00:04:74:00:00:0d:47:70",
+                    "00:04:74:00:00:0d:47:63",
+                    "00:04:74:00:00:8a:b4:3b",
+                    "00:04:74:00:00:ac:bf:e2",
+                    "00:04:74:00:00:af:88:41",
+                    "00:04:74:00:00:7a:ab:c3",
+                    "00:04:74:00:00:ae:f4:61",
+                    "00:04:74:00:00:92:f6:9b",
+                    "00:04:74:00:00:a2:cf:ba",
+                    "00:04:74:00:00:a2:c6:dc",
+                    "00:04:74:00:00:7e:db:b3"
+                ],
+                "therm_relay": "00:03:50:b7:71:be",
+                "true_temperature_available": true
+            }
+        ],
+        "modules": [
+            {
+                "id": "00:03:50:b7:71:be",
+                "type": "BNS",
+                "name": "Smarther Thermostat",
+                "setup_date": 1615302658,
+                "room_id": "2389428768",
+                "reachable": true,
+                "hk_device_id": "ae:64:48:1b:78:dd",
+                "schedule_limits": [
+                    {
+                        "nb_zones": 16,
+                        "nb_timeslots": 150,
+                        "type": "therm"
+                    },
+                    {
+                        "nb_zones": 16,
+                        "nb_timeslots": 150,
+                        "type": "cooling"
+                    }
+                ],
+                "max_modules_nb": 20
+            },
+            {
+                "id": "00:04:74:26:1b:1e",
+                "type": "NLG",
+                "name": "Legrand Gateway",
+                "subtype": "standalone",
+                "setup_date": 1615301916,
+                "room_id": "1914591590",
+                "reachable": true,
+                "modules_bridged": [
+                    "00:04:74:00:00:a1:4c:95",
+                    "00:04:74:00:00:83:89:ec",
+                    "00:04:74:00:00:af:88:4b",
+                    "00:04:74:00:00:83:9c:65",
+                    "00:04:74:00:00:0f:35:67",
+                    "00:04:74:00:00:0d:47:70",
+                    "00:04:74:00:00:0d:47:63",
+                    "00:04:74:00:00:8a:b4:3b",
+                    "00:04:74:00:00:ac:bf:e2",
+                    "00:04:74:00:00:af:88:41",
+                    "00:04:74:00:00:7a:ab:c3",
+                    "00:04:74:00:00:ae:f4:61",
+                    "00:04:74:00:00:92:f6:9b",
+                    "00:04:74:00:00:a2:cf:ba",
+                    "00:04:74:00:00:a2:c6:dc",
+                    "00:04:74:00:00:7e:db:b3"
+                ],
+                "schedule_limits": [
+                    {
+                        "nb_zones": 70,
+                        "nb_timeslots": 147,
+                        "nb_modules": 60,
+                        "nb_actions": 202,
+                        "type": "event"
+                    }
+                ],
+                "capabilities": [
+                    {
+                        "name": "scenarios",
+                        "available": true
+                    },
+                    {
+                        "name": "automatism",
+                        "available": true
+                    },
+                    {
+                        "name": "heating_schedule",
+                        "available": true
+                    },
+                    {
+                        "name": "smart_alerts",
+                        "available": true
+                    },
+                    {
+                        "name": "manual_temporal_calibration",
+                        "available": true
+                    },
+                    {
+                        "name": "manual_venetian_calibration",
+                        "available": true
+                    },
+                    {
+                        "name": "z3v_shutters",
+                        "available": true
+                    }
+                ],
+                "group_id": 1
+            },
+            {
+                "id": "00:04:74:00:00:a1:4c:95",
+                "type": "NLPC",
+                "name": "Energy Meter",
+                "setup_date": 1615301918,
+                "room_id": "1914591590",
+                "bridge": "00:04:74:26:1b:1e",
+                "source_type": "other",
+                "electricity_phase": "1"
+            },
+            {
+                "id": "00:04:74:00:00:83:89:ec",
+                "type": "NLPT",
+                "name": "Kitchen Worktop",
+                "setup_date": 1615301918,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e"
+            },
+            {
+                "id": "00:04:74:00:00:af:88:4b",
+                "type": "NLT",
+                "name": "Wireless Switch 2",
+                "subtype": "on_off_remote",
+                "setup_date": 1615303556,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:83:9c:65",
+                "type": "NLPO",
+                "name": "E-glass",
+                "setup_date": 1615395228,
+                "room_id": "1914591590",
+                "bridge": "00:04:74:26:1b:1e",
+                "appliance_type": "other"
+            },
+            {
+                "id": "00:04:74:00:00:0f:35:67",
+                "type": "NLM",
+                "name": "Kitchen Main Light",
+                "setup_date": 1615556158,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:0d:47:70",
+                "type": "NLP",
+                "name": "Fridge",
+                "setup_date": 1615556171,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default",
+                "appliance_type": "fridge_freezer"
+            },
+            {
+                "id": "00:04:74:00:00:0d:47:63",
+                "type": "NLP",
+                "name": "TV",
+                "setup_date": 1615556185,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default",
+                "appliance_type": "multimedia"
+            },
+            {
+                "id": "00:04:74:00:00:8a:b4:3b",
+                "type": "NLD",
+                "name": "Wireless Double Switch 1",
+                "setup_date": 1615560694,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:ac:bf:e2",
+                "type": "NLT",
+                "name": "Home Away Wireless Switch 1",
+                "subtype": "home_away_remote",
+                "setup_date": 1615993220,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:af:88:41",
+                "type": "NLT",
+                "name": "Wireless Switch 1",
+                "subtype": "on_off_remote",
+                "setup_date": 1615993593,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:7a:ab:c3",
+                "type": "NLT",
+                "name": "Roller Shutters Wireless Switch 1",
+                "subtype": "roller_shutter_remote",
+                "setup_date": 1615994237,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:ae:f4:61",
+                "type": "NLT",
+                "name": "Wireless Switch 3",
+                "subtype": "on_off_remote",
+                "setup_date": 1615995785,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:92:f6:9b",
+                "type": "NLFN",
+                "name": "Ambient Light",
+                "setup_date": 1617281559,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default",
+                "brightness:in_schedule": true,
+                "brightness:in_scenario": true
+            },
+            {
+                "id": "00:04:74:00:00:a2:cf:ba",
+                "type": "NLT",
+                "name": "Wireless Switch 4",
+                "subtype": "on_off_remote",
+                "setup_date": 1632478295,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:a2:c6:dc",
+                "type": "NLT",
+                "name": "Wake Up Sleep Wireless Switch 1",
+                "subtype": "wakeup_sleep_remote",
+                "setup_date": 1632478550,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "packaging": "default"
+            },
+            {
+                "id": "00:04:74:00:00:7e:db:b3",
+                "type": "NLLV",
+                "name": "Window",
+                "setup_date": 1646999638,
+                "room_id": "2389428768",
+                "bridge": "00:04:74:26:1b:1e",
+                "capabilities": [
+                    {
+                        "name": "manual_temporal_calibration",
+                        "available": true
+                    },
+                    {
+                        "name": "manual_venetian_calibration",
+                        "available": true
+                    }
+                ],
+                "appliance_type": "rolling_shutter",
+                "target_position:in_schedule": true,
+                "target_position:in_scenario": true
+            },
+            {
+                "id": "70:ee:50:3f:16:e2",
+                "type": "NAMain",
+                "setup_date": 1642578235,
+                "reachable": true,
+                "modules_bridged": [
+                    "03:00:00:09:88:de",
+                    "03:00:00:09:aa:ec",
+                    "02:00:00:3f:73:96"
+                ],
+                "customer_id": "1000373",
+                "hardware_version": 241,
+                "public_ext_data": false,
+                "public_ext_counter": 0,
+                "alarm_config": {
+                    "default_alarm": [
+                        {
+                            "db_alarm_number": 0
+                        },
+                        {
+                            "db_alarm_number": 1
+                        },
+                        {
+                            "db_alarm_number": 2
+                        },
+                        {
+                            "db_alarm_number": 4
+                        },
+                        {
+                            "db_alarm_number": 5
+                        },
+                        {
+                            "db_alarm_number": 6
+                        },
+                        {
+                            "db_alarm_number": 7
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "03:00:00:09:88:de",
+                "type": "NAModule4",
+                "name": "Indoor module",
+                "setup_date": 1642578236,
+                "bridge": "70:ee:50:3f:16:e2"
+            },
+            {
+                "id": "03:00:00:09:aa:ec",
+                "type": "NAModule4",
+                "name": "Indoor module",
+                "setup_date": 1642578237,
+                "bridge": "70:ee:50:3f:16:e2"
+            },
+            {
+                "id": "02:00:00:3f:73:96",
+                "type": "NAModule1",
+                "name": "Outdoor",
+                "setup_date": 1642578237,
+                "bridge": "70:ee:50:3f:16:e2"
+            }
+        ],
+        "temperature_control_mode": "heating",
+        "therm_schedules": [
+            {
+                "timetable": [
+                    {
+                        "zone_id": 1,
+                        "m_offset": 0
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 390
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 480
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 960
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 1380
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 1830
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 1920
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 2400
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 2820
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3270
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 3360
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3840
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 4260
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 4710
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 4800
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 5280
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 5700
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6150
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 6240
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6720
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 7140
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 7590
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 8580
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 9030
+                    },
+                    {
+                        "zone_id": 3,
+                        "m_offset": 9720
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 10020
+                    }
+                ],
+                "zones": [
+                    {
+                        "name": "Comfort",
+                        "id": 0,
+                        "type": 0,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 22
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Comfort+",
+                        "id": 3,
+                        "type": 8,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 23.5
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Night",
+                        "id": 1,
+                        "type": 1,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 18
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Saturday",
+                        "id": 2,
+                        "type": 4,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 21
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Eco",
+                        "id": 4,
+                        "type": 5,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 20
+                            }
+                        ],
+                        "modules": []
+                    }
+                ],
+                "name": "Heating",
+                "default": false,
+                "away_temp": 12,
+                "hg_temp": 7,
+                "id": "604790030b9b6457a95ac54b",
+                "selected": true,
+                "type": "therm"
+            }
+        ],
+        "therm_mode": "schedule",
+        "therm_setpoint_default_duration": 120,
+        "anticipation": false,
+        "outdoor_temperature_source": "gefs",
+        "therm_heating_priority": "eco",
+        "cooling_mode": "schedule",
+        "auto_temp_mode": "schedule",
+        "therm_boost_default_duration": 30,
+        "gone_after": 14400,
+        "share_info": false,
+        "smart_notifs": true,
+        "events_ttl": "three_months",
+        "schedules": [
+            {
+                "timetable": [
+                    {
+                        "zone_id": 1,
+                        "m_offset": 0
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 390
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 480
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 960
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 1380
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 1830
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 1920
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 2400
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 2820
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3270
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 3360
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3840
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 4260
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 4710
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 4800
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 5280
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 5700
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6150
+                    },
+                    {
+                        "zone_id": 4,
+                        "m_offset": 6240
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6720
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 7140
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 7590
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 8580
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 9030
+                    },
+                    {
+                        "zone_id": 3,
+                        "m_offset": 9720
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 10020
+                    }
+                ],
+                "zones": [
+                    {
+                        "name": "Comfort",
+                        "id": 0,
+                        "type": 0,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 22
+                            }
+                        ],
+                        "modules": [],
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "therm_setpoint_temperature": 22
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Comfort+",
+                        "id": 3,
+                        "type": 8,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 23.5
+                            }
+                        ],
+                        "modules": [],
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "therm_setpoint_temperature": 23.5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Night",
+                        "id": 1,
+                        "type": 1,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 18
+                            }
+                        ],
+                        "modules": [],
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "therm_setpoint_temperature": 18
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Saturday",
+                        "id": 2,
+                        "type": 4,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 21
+                            }
+                        ],
+                        "modules": [],
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "therm_setpoint_temperature": 21
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eco",
+                        "id": 4,
+                        "type": 5,
+                        "rooms_temp": [
+                            {
+                                "room_id": "2389428768",
+                                "temp": 20
+                            }
+                        ],
+                        "modules": [],
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "therm_setpoint_temperature": 20
+                            }
+                        ]
+                    }
+                ],
+                "name": "Heating",
+                "default": false,
+                "away_temp": 12,
+                "hg_temp": 7,
+                "id": "604790030b9b6457a95ac54b",
+                "selected": true,
+                "type": "therm"
+            },
+            {
+                "timetable": [
+                    {
+                        "zone_id": 0,
+                        "m_offset": 420
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 1860
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3300
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 4740
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6180
+                    }
+                ],
+                "zones": [
+                    {
+                        "name": "Wake Up",
+                        "id": 0,
+                        "rooms": [],
+                        "modules": [
+                            {
+                                "id": "00:04:74:00:00:0d:47:63",
+                                "bridge": "00:04:74:26:1b:1e",
+                                "on": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Close Shutter",
+                        "id": 1,
+                        "rooms": [],
+                        "modules": [
+                            {
+                                "id": "00:04:74:00:00:7e:db:b3",
+                                "bridge": "00:04:74:26:1b:1e",
+                                "target_position": 0
+                            }
+                        ]
+                    }
+                ],
+                "name": "Ordinary Days",
+                "default": false,
+                "timetable_sunrise": [
+                    {
+                        "zone_id": 1,
+                        "day": 6,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 1,
+                        "day": 7,
+                        "twilight_offset": -30
+                    }
+                ],
+                "timetable_sunset": [],
+                "id": "6051572fdb0f6f725e67a084",
+                "selected": true,
+                "type": "event"
+            },
+            {
+                "timetable": [],
+                "zones": [
+                    {
+                        "name": "Close Shutter",
+                        "id": 0,
+                        "rooms": [],
+                        "modules": [
+                            {
+                                "id": "00:04:74:00:00:7e:db:b3",
+                                "bridge": "00:04:74:26:1b:1e",
+                                "target_position": 0
+                            }
+                        ]
+                    }
+                ],
+                "name": "Holidays",
+                "default": false,
+                "timetable_sunrise": [
+                    {
+                        "zone_id": 0,
+                        "day": 1,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 2,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 3,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 4,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 5,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 6,
+                        "twilight_offset": -30
+                    },
+                    {
+                        "zone_id": 0,
+                        "day": 7,
+                        "twilight_offset": -30
+                    }
+                ],
+                "timetable_sunset": [],
+                "id": "62434068f254dd20ec0c7cbc",
+                "type": "event"
+            },
+            {
+                "timetable": [
+                    {
+                        "zone_id": 1,
+                        "m_offset": 0
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 390
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 480
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 960
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 1380
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 1830
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 1920
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 2400
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 2820
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3270
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 3360
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 3840
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 4260
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 4710
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 4800
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 5280
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 5700
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6150
+                    },
+                    {
+                        "zone_id": 2,
+                        "m_offset": 6240
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 6720
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 7140
+                    },
+                    {
+                        "zone_id": 3,
+                        "m_offset": 7590
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 8580
+                    },
+                    {
+                        "zone_id": 0,
+                        "m_offset": 9030
+                    },
+                    {
+                        "zone_id": 1,
+                        "m_offset": 10020
+                    }
+                ],
+                "zones": [
+                    {
+                        "name": "Comfort",
+                        "id": 0,
+                        "type": 0,
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "cooling_setpoint_temperature": 21
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Night",
+                        "id": 1,
+                        "type": 1,
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "cooling_setpoint_temperature": 25
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Saturday",
+                        "id": 3,
+                        "type": 4,
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "cooling_setpoint_temperature": 22
+                            }
+                        ],
+                        "modules": []
+                    },
+                    {
+                        "name": "Eco",
+                        "id": 2,
+                        "type": 5,
+                        "rooms": [
+                            {
+                                "id": "2389428768",
+                                "cooling_setpoint_temperature": 23
+                            }
+                        ],
+                        "modules": []
+                    }
+                ],
+                "name": "Cooling",
+                "default": false,
+                "cooling_away_temp": 30,
+                "id": "60479022179776383c7b2aa4",
+                "selected": true,
+                "type": "cooling"
+            },
+            {
+                "timetable": [
+                    {
+                        "zone_id": 0,
+                        "m_offset": 0
+                    }
+                ],
+                "zones": [
+                    {
+                        "id": 0,
+                        "price": 0.1585,
+                        "price_type": "basic"
+                    }
+                ],
+                "name": "electricity",
+                "default": false,
+                "tariff": "custom",
+                "tariff_option": "basic",
+                "power_threshold": 9,
+                "contract_power_unit": "kVA",
+                "id": "60ad4cf6632c96438c466434",
+                "selected": true,
+                "type": "electricity"
+            }
+        ]
+    }
+]

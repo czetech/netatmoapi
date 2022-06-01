@@ -1,0 +1,20 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Python package distribution
+/dist/
+/src/*.egg-info/
+
+# mypy
+/.mypy_cache/
+
+# pytest
+/.pytest_cache/
+
+# Coverage.py
+/.coverage
+
+# Sphinx
+/docs/_build/
